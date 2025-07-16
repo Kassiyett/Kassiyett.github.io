@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kassiyet's Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <!-- === HEADER === -->
+    <header>
+      <div class="logo">
+        KASSIYET <span>/ PORTFOLIO</span>
+      </div>
+      <nav>
+        <a href="#about">ABOUT ME</a>
+        <a href="#resume">RESUME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#films">FILMS</a>
+        <a href="#leadership">LEADERSHIP</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <!-- === Main Content === -->
+    <div class="main-content">
+      <!-- Profile Card -->
+      <div class="profile-card">
+        <img src="assets/headshot.png" alt="Kassiyet Headshot" class="logo-image" />
+        <div class="tag">
+          <h2>Kassiyet</h2>
+          <h3>Adilbay</h3>
+          <div class="divider"></div>
+          <div class="title">TECH, DATA, AI</div>
+        </div>
+      </div>
+
+      <!-- Main Text -->
+      <div class="content-section">
+        <h1 class="greeting">Hi Barbie!</h1>
+        <h2 class="subtitle">UBC 3rd CS & Business student</h2>
+        <div class="buttons">
+          <a href="#resume" class="btn btn-resume">Resume</a>
+          <a href="#projects" class="btn btn-projects">Projects</a>
+        </div>
+        <p class="description">
+          I’m a Software Engineer and Data Scientist based in Vancouver, Canada.
+          I love building tech that makes an impact. Whether it’s machine learning,
+          backend logic, or a clean UI, I bring both brains and beauty to the build.
+        </p>
+      </div>
+
+      <!-- Decorative Image -->
+      <img src="assets/cloud.png" alt="Cloud Decoration" class="cloud-image" />
+    </div>
+
+    <!-- === RESUME  === -->
+    <section id="resume" class="section">
+      <h2 class="section-title">Resume</h2>
+      <article class="resume">
+        
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="h3-resume">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of British Columbia (UBC)</h4>
+              <span>2022 — 2026</span>
+              <p class="timeline-text">
+                Bachelor of Commerce in Business and Computer Science <br />
+                Relevant Coursework: Software Construction, Data Structures & Algorithms, Marketing, Finance
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Assistant Product Manager – NotarySwift</h4>
+              <span>Summer 2024</span>
+              <p class="timeline-text">
+                Spearheaded product development for a notarization app; presented project to the President of Kazakhstan.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Skills  -->
+        <section class="skill">
+          <h3 class="h3 skills-title">Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python / Java</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Product Management</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </section>
+
+    <!-- === PROJECTS === -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="portfolio-grid">
+
+        <!-- Project Cards -->
+        <a href="https://github.com/Kassiyett/Meal-Plan-App/tree/main" target="_blank" class="portfolio-card">
+          <div class="portfolio-image-box">
+            <img src="./assets/food.png" alt="Meal Plan Tracker" />
+            <div class="portfolio-overlay">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <h3 class="portfolio-title">Meal Plan Tracker</h3>
+          <p class="portfolio-category">Java Application</p>
+        </a>
+
+        <a href="https://github.com/Kassiyett/Heart-Disease-Prediction/tree/main" target="_blank" class="portfolio-card">
+          <div class="portfolio-image-box">
+            <img src="./assets/heart_project.png" alt="Heart Disease Classification" />
+            <div class="portfolio-overlay">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <h3 class="portfolio-title">Heart Disease Classification</h3>
+          <p class="portfolio-category">Machine Learning Project</p>
+        </a>
+
+        <a href="https://devpost.com/software/bundleup-nyi6wr" target="_blank" class="portfolio-card">
+          <div class="portfolio-image-box">
+            <img src="./assets/project_bundle.png" alt="BundleUp" />
+            <div class="portfolio-overlay">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <h3 class="portfolio-title">BundleUp</h3>
+          <p class="portfolio-category">Product Design</p>
+        </a>
+
+        <a href="https://github.com/Kassiyett/handwritten_digit_classification" target="_blank" class="portfolio-card">
+          <div class="portfolio-image-box">
+            <img src="./assets/project_digit.png" alt="Digit Classifier" />
+            <div class="portfolio-overlay">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <h3 class="portfolio-title">Handwritten Digit Classifier</h3>
+          <p class="portfolio-category">Machine Learning Project</p>
+        </a>
+
+        <a href="https://github.com/Kassiyett/taxiWebApp" target="_blank" class="portfolio-card">
+          <div class="portfolio-image-box">
+            <img src="./assets/project_taxi.png" alt="Taxi Web App" />
+            <div class="portfolio-overlay">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <h3 class="portfolio-title">Taxi Web App</h3>
+          <p class="portfolio-category">Web Application</p>
+        </a>
+
+        <a href="https://github.com/Kassiyett/image_compression" target="_blank" class="portfolio-card">
+          <div class="portfolio-image-box">
+            <img src="./assets/cat.png" alt="Image Compression" />
+            <div class="portfolio-overlay">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+          <h3 class="portfolio-title">Image Compression</h3>
+          <p class="portfolio-category">Algorithm Optimization</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- === CONTACT === -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-description">Email: kassiyet.adilbay@gmail.com</p>
+    </section>
+  </div>
+
+  <!-- === FOOTER === -->
+  <footer>
+    <div class="footer-left">
+      <div>© 2025 by Kassiyet Adilbay.</div>
+    </div>
+    <div class="footer-right">
+      <div class="contact-info">
+        <div>E-MAIL</div>
+        <div>kassiyet.adilbay@gmail.com</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
