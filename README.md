@@ -1,1 +1,0 @@
-# kassiyet.gihub.io
