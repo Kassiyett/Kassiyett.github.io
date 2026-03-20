@@ -1,4 +1,11 @@
 import { Camera, Waves, Mountain, Code2 } from 'lucide-react';
+import surfingImg from '@/assets/surfing.jpeg';
+import hikingImg from '@/assets/hiking.jpeg';
+import travelImg from '@/assets/travel.png';
+import paddleImg from '@/assets/paddle.png';
+
+
+
 
 interface Interest {
     id: number;
@@ -14,28 +21,28 @@ export function InterestsSection() {
             id: 1,
             title: 'Surfing',
             description: 'Catching waves and finding balance.',
-            imageUrl: 'assets/surfing.jpeg',
+            imageUrl: surfingImg,
             icon: Waves,
         },
         {
             id: 2,
             title: 'Hiking',
             description: 'Exploring trails. Best ideas come at 10,000 feet.',
-            imageUrl: 'assets/hiking.jpeg',
+            imageUrl: hikingImg,
             icon: Mountain,
         },
         {
             id: 3,
             title: 'Travelling World',
             description: 'Meeting people, exploring new cultures and food.',
-            imageUrl: 'assets/travel.png',
+            imageUrl: travelImg,
             icon: Code2,
         },
         {
             id: 4,
             title: 'Paddleboarding',
             description: 'When sun is out and its 20degrees+, you can only catch me in ocean or lakes.',
-            imageUrl: 'assets/paddle.png',
+            imageUrl: paddleImg,
             icon: Camera,
         },
     ];
