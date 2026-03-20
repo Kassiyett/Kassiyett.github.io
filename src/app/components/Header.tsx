@@ -1,5 +1,7 @@
 import { Terminal, Code2 } from 'lucide-react';
 import { motion } from 'motion/react';
+import picImg from '@/assets/headshot.png';
+
 
 export function Header() {
   return (
@@ -20,7 +22,7 @@ export function Header() {
               <div className="overflow-hidden" style={{ border: '2px solid rgba(255, 182, 217, 0.4)' }}>
                 <div className="relative group">
                   <img
-                    src="assets/headshot.png"
+                    src={picImg}
                     alt="Profile"
                     className="w-full aspect-square object-cover"
                   />

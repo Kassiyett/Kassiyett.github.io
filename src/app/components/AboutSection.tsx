@@ -1,4 +1,6 @@
 import { Code2, Sprout, Cpu, MapPin } from 'lucide-react';
+import tulipImg from '@/assets/tulips.jpeg';
+
 
 export function AboutSection() {
   const stats = [
@@ -29,7 +31,7 @@ export function AboutSection() {
                 {/* Image */}
                 <div className="relative h-48 md:h-auto overflow-hidden">
                   <img
-                    src='@assets/tulips.jpeg'
+                    src={tulipImg}
                     alt="Kazakhstan"
                     className="w-full h-full object-cover"
                   />
